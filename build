@@ -1,0 +1,1 @@
+docker run --rm   --volume="/home/yaf/Code/ada-school.github.io:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8   jekyll build
