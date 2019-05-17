@@ -4,10 +4,23 @@
     <meta name="viewport" content="initial-scale=1">
     <meta charset="utf-8">
     <meta name="description" content="{{ page.desc }}">
+    <link rel="stylesheet" href="/style.css">
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1>{{ page.title }}</h1>
+    <header>
+      <a href="/"><img src="/images/Logo+Ada.png" alt="Ada Tech School"></a>
+      <nav>
+        <ul>
+          <li><a href="/">L'ÉCOLE</a></li>
+          <li><a href="/nouvel-index">LET'S MEET</a></li>
+          <li><a href="/manifesto">MANIFESTO</a></li>
+        </ul>
+      </nav>
+
+      <a href="/candidature">CANDIDATER</a>
+    </header>
+
     {{ content }}
   </body>
 </html>
